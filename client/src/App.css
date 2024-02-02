@@ -1,3 +1,7 @@
+body{
+  background-color: #212529;
+}
+
 table, th, td {
   border: 1px solid;
 }

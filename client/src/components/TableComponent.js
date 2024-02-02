@@ -9,8 +9,8 @@ const TableComponent = ({ data }) => {
   }
 
   return (
-    <div className='container ' style={{marginLeft:"100px", marginTop:"40px"}}>
-    <table style={{fontSize:"10px"}}>
+    <div className='container ' style={{marginTop:"40px"}}>
+    <table style={{fontSize:"15px"}}>
       <thead>
         <tr style={{color:"wheat"}}>
           <th>Name</th>
