@@ -9,7 +9,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://localhost:4000/api/v1/platform');
+        const response = await fetch('https://project5-2yt5.onrender.com/api/v1/platform');
           if (!response.ok) {
             throw new Error("Failed to fetch the stock detail");
           }
